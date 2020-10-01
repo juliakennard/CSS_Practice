@@ -1,0 +1,58 @@
+
+
+    .rounded_edge {
+        border-radius: 15px;
+    }
+
+    a {
+        color: turquoise
+    }
+
+   #container {
+       padding: 10px;
+       background-color:midnightblue;
+       width: 970px;
+   }
+
+   #header {
+       background-color: firebrick;
+       padding: 1px 20px;
+       color: lightgray;
+   }
+
+   #navigation {
+       background-color: teal;
+       padding: 20px;
+       margin-top: 20px;    
+       color: lightgray;
+    }
+
+   #definitions {
+       background-color: black;
+       color: lightgray;
+       padding: 20px;
+       margin-left: 20px;
+       margin-top: 20px;
+       width: 655px;
+   }
+
+   span {
+       color: cornflowerblue;
+   }
+
+   #footnote {
+       background-color: grey;
+       padding: 10px 20px;
+       color: lightgray;
+       margin-top: 20px;
+   }
+
+   #main_content {
+       display: inline-block;
+       display: flex;
+       justify-content: space-between;
+   }
+
+   #sublinks {
+       list-style: none;
+   }

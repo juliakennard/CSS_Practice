@@ -1,0 +1,149 @@
+*{
+    font-family: arial;
+}
+
+body {
+    height: 1200px;
+}
+
+#wrapper {
+    width: 970px;
+    height: 1000px;
+    margin: 0px auto;
+}
+
+#header {
+    padding: 20px;
+    background-color: whitesmoke;
+}
+
+#header > h1, #header > h2 {
+    display: inline-block;
+    margin: 0px;
+}
+
+#header > h1 {
+    font-family: cursive;
+}
+
+#header > h2 {
+    margin-left: 380px;
+}
+
+#main_content {
+    background-color: #644f49;
+    padding: 25px;
+}
+
+#main_content_top {
+    display: flex;
+    justify-content: space-between;
+}
+
+#main_content_top > div {
+    width: 485px;
+}
+
+#main_content_top > img {
+    width: 400px;
+    border: 5px solid lightgrey;
+}
+
+.info_block {
+    display: inline-block;
+    vertical-align: top;
+    background-color: lightgrey;
+}
+
+.info_block > h3 {
+    background-color: gray;
+    color: white;
+    margin: 0px;
+    padding: 10px;
+}
+
+.info_block p {
+    margin: 10px;
+    font-size: 15px;
+}
+
+.info_block a {
+    color: black;
+    margin: 10px;
+}
+
+#main_content_bottom {
+    display: flex;
+    justify-content: space-between;
+}
+
+.bottom_block {
+    width: 300px;
+    height: 410px;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 25px;
+    text-align: justify;
+}
+
+.bottom_block > img {
+    width: 300px;
+    border-bottom: 1px solid darkgrey;
+}
+
+#main_content_tech {
+    display: flex;
+    justify-content: space-between;
+}
+
+.tech_block {
+    width: 300px;
+    height: 240px;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 0px;
+}
+
+.tech_icons > img {
+    width: 40px;
+    margin: 6px;
+}
+
+.tech_icons {
+    padding: 10px;
+}
+
+.button_container {
+    text-align: center;
+}
+
+.button {
+    width: auto;
+    height: 30px;
+    background-color: darkgreen;
+    color: whitesmoke;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 3px 3px gray;
+}
+
+#footer {
+    background-color: whitesmoke;
+    padding: 5px;
+    height: 65px;
+    text-align: center;
+}
+
+#footer > p {
+    margin-top: 5px;
+}
+
+#social_media > img {
+    width: 20px;
+    vertical-align: bottom;
+}
+
+#social_media > a {
+    font-style: italic;
+    color: black;
+}
